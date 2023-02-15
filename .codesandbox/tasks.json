@@ -6,7 +6,12 @@
   "tasks": {
     "yarn start": {
       "name": "yarn start",
-      "command": "yarn start"
+      "command": "yarn start",
+      "runAtStart": true
+    },
+    "yarn": {
+      "name": "yarn",
+      "command": "yarn"
     }
   }
 }
